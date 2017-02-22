@@ -1,0 +1,102 @@
+/* WORKS PAGE */
+.works{
+    /*border: 1px solid white;*/
+}
+
+.works .sweethut{
+    background-image: url(../img/sweethut/bkg.png);
+}
+.works .shopsmart{
+    background-image: url(../img/shopsmart/bkg.png);
+}
+.works .fug{
+    background-image: url(../img/fug/bkg.png);
+}
+
+.works .screenshot img{
+    width: 140%;
+    height: 100%;
+    /*border: 1px solid white;*/
+}
+.works .details{
+    padding-top: 9rem;
+}
+.works .details .title{
+    font-size: 3rem;
+}
+.works .details .description{
+font-size: 1.5rem;
+}
+.works .details .rating{
+font-size: 1.5rem;
+padding-bottom: 15px;
+}
+.works .details img{
+    width: 20%;
+    padding-bottom: 15px;
+}
+.works .details button{
+    background-color: transparent;
+    color: #d9534f;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.works .details button:hover{
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+}
+.works .details button:active{
+    background-color: transparent;
+}
+
+/* ABOUT SECTION */
+.about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../img/about-bkg.png);
+    color: black;
+}
+.about h2{
+    padding-top: 5rem;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+.about .profile{
+    height: 25rem;
+    width: 25rem;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+.about .profile img{
+
+}
+.about .niceWords{
+    font-size: 1.5rem;
+    padding: 2rem 0;
+}
+.about .seperator{
+    width: 30%;
+    height: 2px;
+    background-color: gray;
+    margin: 0 auto;
+}
+.about p{
+   padding-top: 1.5rem;
+}
+.about button{
+
+}
+.about .socalMedia{
+
+}
+
+/* CONTACT SECTION */
+.contact{
+    background-image: url(../img/contact-bkg.png);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: black;
+}
