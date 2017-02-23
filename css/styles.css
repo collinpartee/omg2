@@ -5,12 +5,15 @@
 
 .works .sweethut{
     background-image: url(../img/sweethut/bkg.png);
+    background-size: cover;
 }
 .works .shopsmart{
     background-image: url(../img/shopsmart/bkg.png);
+    background-size: cover;
 }
 .works .fug{
     background-image: url(../img/fug/bkg.png);
+    background-size: cover;
 }
 
 .works .screenshot img{
@@ -56,6 +59,7 @@ padding-bottom: 15px;
     padding-bottom: 100px;
     background-image: url(../img/about-bkg.png);
     color: black;
+    background-size: cover;
 }
 .about h2{
     padding-top: 5rem;
@@ -96,7 +100,30 @@ padding-bottom: 15px;
 /* CONTACT SECTION */
 .contact{
     background-image: url(../img/contact-bkg.png);
+    background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
     color: black;
+}
+
+/* STATS SECTION */
+.stats {
+    padding-top: 50px;
+}
+.stats .kpi {
+
+}
+.stats .kpi h1{
+    margin:  0;
+    font-size: 6rem;
+}
+.stats .kpi div{
+    background-color: white;
+    height: 1px;
+    width: 25%;
+    margin: 0 auto;
+}
+.stats .kpi p{
+    text-transform: uppercase;
+    font-size: 1rem;
 }
