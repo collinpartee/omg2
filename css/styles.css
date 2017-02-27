@@ -1,3 +1,48 @@
+/* UNIVERSAL 
+* 
+*   font-family: 'Julius Sans One', sans-serif;
+*   font-family: 'Crimson Text', serif;
+*
+*   font-family: 'Oswald', sans-serif;
+*   font-family: 'Quattrocento Sans', sans-serif;
+*
+*   font-family: 'Open Sans', sans-serif;
+*   font-family: 'Gentium Basic', serif;
+*
+*/
+
+/* UNIVERSAL */
+body{
+    font-family: 'Gentium Basic', serif;
+}
+h1, h2, h3, h4{
+    font-family: 'Open Sans', sans-serif;
+}
+.details{
+    color: black;
+}
+.title{
+    font-family: 'Open Sans', sans-serif;
+}
+.center-div {
+    margin: 0 auto;
+}
+
+
+/* INTRO SECTION */
+.intro {
+    color: #000;
+    background: url(../img/header-bkg.png) bottom center no-repeat #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.intro .btn-circle {
+    color: rgba(0,0,0,0.7);
+    border-color: rgba(0,0,0,0.7);
+}
+
 /* WORKS PAGE */
 .works{
     /*border: 1px solid white;*/
@@ -16,13 +61,27 @@
     background-size: cover;
 }
 
+.works .screenshot {
+    position: relative;
+    height: 47rem;
+}
+.works .screenshot .main {
+    z-index: 1;
+}
 .works .screenshot img{
-    width: 140%;
-    height: 100%;
-    /*border: 1px solid white;*/
+    z-index: 0;
+    width: 50rem;
+    height: 50rem;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .works .details{
-    padding-top: 9rem;
+    /*padding-top: 9rem;*/
+        display: flex;
+    height: 45rem;
+    align-items: center;
 }
 .works .details .title{
     font-size: 3rem;
@@ -64,7 +123,7 @@ padding-bottom: 15px;
 .about h2{
     padding-top: 5rem;
     margin: 0;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
 }
 .about .profile{
     height: 25rem;
@@ -79,10 +138,10 @@ padding-bottom: 15px;
 }
 .about .niceWords{
     font-size: 1.5rem;
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
 .about .seperator{
-    width: 30%;
+    width: 15%;
     height: 2px;
     background-color: gray;
     margin: 0 auto;
@@ -91,7 +150,11 @@ padding-bottom: 15px;
    padding-top: 1.5rem;
 }
 .about button{
-
+    border-radius: 5px;
+    padding: 12px 15px;
+    background-color: transparent;
+    color: #337ab7;
+    border-color: #337ab7;
 }
 .about .socalMedia{
 
@@ -105,10 +168,26 @@ padding-bottom: 15px;
     padding-bottom: 100px;
     color: black;
 }
-
+.contact a {
+    color: #d35400;
+}
+.contact .btn-default {
+    border: 1px solid #d35400;
+    color: #d35400;
+    background-color: transparent;
+}
+.contact .btn-default:focus, .contact .btn-default:hover {
+    border: 1px solid #d35400;
+    outline: 0;
+    color: #fff;
+    background-color: #d35400;
+}
 /* STATS SECTION */
 .stats {
     padding-top: 50px;
+    background-image: url(../img/stats-bkg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .stats .kpi {
 
@@ -125,5 +204,5 @@ padding-bottom: 15px;
 }
 .stats .kpi p{
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }

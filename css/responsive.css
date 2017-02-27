@@ -1,0 +1,11 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) { 
+    .works .screenshot img{
+        width: 100%;
+    }
+    .works .details {
+        padding-top: 0;
+        padding-bottom: 20px;
+        height: auto;
+    }
+}
