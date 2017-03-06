@@ -1,7 +1,7 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) { 
     .works .screenshot img{
-        width: 100%;
+            margin-left: -7rem;
     }
     .works .details {
         padding-top: 0;
