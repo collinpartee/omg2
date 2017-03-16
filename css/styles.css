@@ -1,3 +1,4 @@
+
 /* UNIVERSAL 
 * 
 *   font-family: 'Julius Sans One', sans-serif;
@@ -11,25 +12,35 @@
 *
 */
 
+
 /* UNIVERSAL */
-body{
+
+body {
     font-family: 'Gentium Basic', serif;
 }
-h1, h2, h3, h4{
+
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Open Sans', sans-serif;
 }
-.details{
+
+.details {
     color: black;
 }
-.title{
+
+.title {
     font-family: 'Open Sans', sans-serif;
 }
+
 .center-div {
     margin: 0 auto;
 }
 
 
 /* INTRO SECTION */
+
 .intro {
     color: #000;
     background: url(../img/header-bkg.png) bottom center no-repeat #000;
@@ -38,26 +49,34 @@ h1, h2, h3, h4{
     background-size: cover;
     -o-background-size: cover;
 }
+
 .intro .btn-circle {
-    color: rgba(0,0,0,0.7);
-    border-color: rgba(0,0,0,0.7);
+    color: rgba(0, 0, 0, 0.7);
+    border-color: rgba(0, 0, 0, 0.7);
 }
+
 
 /* WORKS PAGE */
-.works{
-    /*border: 1px solid white;*/
-}
 
-.works .sweethut{
+.works {}
+
+.works .sweethut {
     background-image: url(../img/sweethut/bkg.png);
     background-size: cover;
 }
-.works .shopsmart{
+
+.works .shopsmart {
     background-image: url(../img/shopsmart/bkg.png);
     background-size: cover;
 }
-.works .fug{
+
+.works .fug {
     background-image: url(../img/fug/bkg.png);
+    background-size: cover;
+}
+
+.works .blackmagic {
+    background-image: url(../img/sweethut/bkg.png);
     background-size: cover;
 }
 
@@ -65,72 +84,81 @@ h1, h2, h3, h4{
     position: relative;
     height: 47rem;
 }
+
 .works .screenshot .main {
     z-index: 1;
 }
-.works .screenshot img{
+
+.works .screenshot img {
     z-index: 0;
     width: 50rem;
     height: 50rem;
-    /* border: 1px solid white; */
-    /* position: absolute;
-    top: 0;
-    left: 0; */
     margin-left: -10rem;
 }
-.works .details{
-    /*padding-top: 9rem;*/
-        display: flex;
+
+.works .details {
+    display: flex;
     height: 45rem;
     align-items: center;
 }
-.works .details .title{
+
+.works .details .title {
     font-size: 3rem;
 }
-.works .details .description{
-font-size: 1.5rem;
-}
-.works .details .rating{
-font-size: 1.5rem;
-padding-bottom: 15px;
+
+.works .details .description {
+    font-size: 1.5rem;
 }
 
-.works .details .rating i{
+.works .details .rating {
+    font-size: 1.5rem;
+    padding-bottom: 15px;
+}
+
+.works .details .rating i {
     color: yellow;
 }
-.works .details img{
+
+.works .details img {
     width: 30%;
     padding-bottom: 15px;
 }
-.works .details button{
+
+.works .details button {
     background-color: transparent;
     color: #d9534f;
     border-radius: 5px;
     border: 2px solid;
 }
-.works .details button:hover{
+
+.works .details button:hover {
     color: #fff;
     background-color: #c9302c;
     border-color: #ac2925;
 }
-.works .details button:active{
+
+.works .details button:active {
     background-color: transparent;
 }
 
+
 /* ABOUT SECTION */
-.about{
+
+.about {
     padding-top: 100px;
     padding-bottom: 100px;
     background-image: url(../img/about-bkg.png);
     color: black;
     background-size: cover;
 }
-.about h2{
+
+.about h2 {
     padding-top: 5rem;
     margin: 0;
     padding-bottom: 0;
 }
-.about .profile{
+
+.about .profile {
     height: 25rem;
     width: 25rem;
     border: 1px solid lightgrey;
@@ -138,76 +166,100 @@ padding-bottom: 15px;
     background-color: lightgray;
     margin: 0 auto;
 }
-.about .profile img{
 
-}
-.about .niceWords{
+.about .profile img {}
+
+.about .niceWords {
     font-size: 1.5rem;
     padding: 1rem 0;
 }
-.about .seperator{
+
+.about .seperator {
     width: 15%;
     height: 2px;
     background-color: gray;
     margin: 0 auto;
 }
-.about p{
-   padding-top: 1.5rem;
+
+.about p {
+    padding-top: 1.5rem;
 }
-.about button{
+
+.about button {
     border-radius: 5px;
     padding: 12px 15px;
     background-color: transparent;
     color: #337ab7;
     border-color: #337ab7;
 }
-.about .socalMedia{
 
-}
+.about .socalMedia {}
+
 
 /* CONTACT SECTION */
-.contact{
+
+.contact {
     background-image: url(../img/contact-bkg.png);
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
     color: black;
 }
+
 .contact a {
     color: #d35400;
 }
+
 .contact .btn-default {
     border: 1px solid #d35400;
     color: #d35400;
     background-color: transparent;
 }
-.contact .btn-default:focus, .contact .btn-default:hover {
+
+.contact .btn-default:focus,
+.contact .btn-default:hover {
     border: 1px solid #d35400;
     outline: 0;
     color: #fff;
     background-color: #d35400;
 }
+
+
 /* STATS SECTION */
+
 .stats {
     padding-top: 50px;
     background-image: url(../img/stats-bkg.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
-.stats .kpi {
 
-}
-.stats .kpi h1{
-    margin:  0;
+.stats .kpi {}
+
+.stats .kpi h1 {
+    margin: 0;
     font-size: 6rem;
 }
-.stats .kpi div{
+
+.stats .kpi div {
     background-color: white;
     height: 1px;
     width: 25%;
     margin: 0 auto;
 }
-.stats .kpi p{
+
+.stats .kpi p {
     text-transform: uppercase;
     font-size: 1.4rem;
+}
+
+/* FOOTER SECTION */
+
+footer p, i {
+    font-size: 1.7rem;
+}
+
+/* MODAL DIALOG */
+.modal-dialog{
+    width: 90%;
 }

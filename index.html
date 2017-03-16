@@ -23,8 +23,7 @@
     <link href="https://fonts.googleapis.com/css?family=Gentium+Basic|Open+Sans" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/grayscale.min.css" rel="stylesheet">
-    <link href="css/override.css" rel="stylesheet">
+    <link href="css/grayscale.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
@@ -116,7 +115,7 @@
                             <i class="fa fa-star-half-o" aria-hidden="true"></i>
                         </span> <br/>
                         <img src="img/sweethut/icon.png" /> <br/>
-                        <button type="button" class="btn btn-danger">App Store</button>
+                        <button type="button" class="btn btn-danger">Coming Soon!</button>
                         </div>
                     </div>
                 </div>
@@ -169,14 +168,26 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 blackmagic">
                 <div class="row">
-                    <div class="col-md-12 details">
+                    <div class="col-md-6 details">
                         <div class="center-div">
-                        <span class="title">John Ave</span> <br/>
-                        <span class="description">Up and coming Atlanta Rapper</span> <br/>
-                        <button type="button" class="btn btn-danger">View Site</button>
+                        <span class="title">Black Magic</span> <br/>
+                        <span class="description">Do you know your history?</span> <br/>
+                        <span class="rating">
+                             <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-half-o" aria-hidden="true"></i>    
+                        </span> <br/>
+                        <img src="img/fug/icon.png" /> <br/>
+                        <!--<button type="button" class="btn btn-danger">App Store</button>-->
+                        <button type="button" class="btn btn-danger">Coming Soon! But Try It Out</button>
                         </div>
+                    </div>
+                    <div class="col-md-6 screenshot">
+                        <img src="img/fug/home-2.png" />
                     </div>
                 </div>
             </div>
@@ -195,7 +206,7 @@
 and Technology as a javascript developer. 
 Specializing in node.js and data visualizations 
 with d3.js</p>
-                <button type="button" class="btn btn-primary">Check Out My Resume</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Check Out My Resume</button>
             </div>
         </div>
     </section>
@@ -268,9 +279,6 @@ my best to respond to your email in 24 hours or less.</p>
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
-
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
     <script src="js/scripts.js"></script>
@@ -278,3 +286,19 @@ my best to respond to your email in 24 hours or less.</p>
 </body>
 
 </html>
+
+
+<!-- Modal -->
+<div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <!--<div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>-->
+      <div class="modal-body">
+        <embed src="img/resume.pdf" width="100%" height="1300px" />
+      </div>
+    </div>
+  </div>
+</div>
