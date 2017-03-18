@@ -76,8 +76,11 @@ h4 {
 }
 
 .works .blackmagic {
-    background-image: url(../img/sweethut/bkg.png);
+    background-image: url(../img/blackmagic/bkg.png);
     background-size: cover;
+}
+.works .blackmagic a {
+    color: white;
 }
 
 .works .screenshot {
