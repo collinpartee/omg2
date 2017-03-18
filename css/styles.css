@@ -162,12 +162,14 @@ h4 {
 }
 
 .about .profile {
-    height: 25rem;
-    width: 25rem;
-    border: 1px solid lightgrey;
+height: 30rem;
+    width: 30rem;
+    border: 5px solid lightgrey;
     border-radius: 50%;
     background-color: lightgray;
     margin: 0 auto;
+    background-image: url(../img/profile.jpg);
+    background-size: cover;
 }
 
 .about .profile img {}
