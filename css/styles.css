@@ -43,11 +43,11 @@ h4 {
 
 .intro {
     color: #000;
-    background: url(../img/header-bkg.png) bottom center no-repeat #000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background: url(../img/header-bkg.png);
+    -webkit-background-size: 110%;
+    -moz-background-size: 110%;
+    background-size: 110%;
+    -o-background-size: 110%;
 }
 
 .intro .btn-circle {
@@ -170,6 +170,7 @@ height: 30rem;
     margin: 0 auto;
     background-image: url(../img/profile.jpg);
     background-size: cover;
+    position: relative;
 }
 
 .about .profile img {}
@@ -244,6 +245,10 @@ height: 30rem;
 .stats .kpi h1 {
     margin: 0;
     font-size: 6rem;
+}
+
+.stats .animated-stat {
+    color: yellow;
 }
 
 .stats .kpi div {
