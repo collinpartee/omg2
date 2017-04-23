@@ -98,11 +98,28 @@ $('.stat').viewportChecker({
 function getRandomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min)) + min;
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+var pHeight = $('#run-away-container').height(),
+    pWidth = $('#run-away-container').width(),
+    child = $('#run-away'),
+    cHeight = $('#run-away').height(),
+    cWidth = $('#run-away').width();
+    console.log('container width :', pWidth, 'height: ', pHeight);
+    console.log('image width :', cWidth, 'height: ', cHeight);
+    console.log('image width :', child);
 
 $('#run-away').hover(function()
 {
-    console.log(event.clientX);
-    // $(this).css('top', (getRandomInt(-1, 1) + event.clientX) + 'px').css('left', (getRandomInt(-1, 1)+ event.clientY) + 'px');
+    var yValue = pWidth - (cWidth + 50),
+    yValue2 = getRandomInt(0,yValue),
+    xValue = (pHeight - cHeight)/4,
+    xValue2 = getRandomInt(0, xValue);
+
+    var usedVal = (yValue2%3) ? (yValue2 * -1) : yValue2; 
+    var usedVal2 = (xValue2%3) ? (xValue2 * -1) : xValue2; 
+    // console.log('y:', yValue2, yValue2 < (pWidth + cWidth));
+
+    $(this).css('left', usedVal + 'px').css('top', usedVal2 + 'px');
 });
