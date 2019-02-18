@@ -79,8 +79,12 @@ h4 {
     background-image: url(../img/blackmagic/bkg.png);
     background-size: cover;
 }
-.works .blackmagic a {
+.works a {
     color: white;
+}
+.works .fridaybih {
+    background-image: url(../img/fridaybih/bkg.png);
+    background-size: cover;
 }
 
 .works .screenshot {
